@@ -1,0 +1,69 @@
+/* App.css */
+
+.menu-icon {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.menu {
+  position: fixed;
+  top: 60px;
+  left: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 10px;
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: rgb(13, 10, 210);
+  font-weight: bold;
+}
+.logo {
+  padding-left: 2rem; 
+  font-size: 7rem;
+  font-weight: bold;
+  color: #0bb833;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+  animation: pulseGlow 2s infinite;
+}
+
+.logo:hover {
+  color: #0056b3;
+  transform: scale(1.1);
+}
+
+/* Pulsande glow-effekt */
+@keyframes pulseGlow {
+  0% {
+    text-shadow: 0 0 5px #0d6efd, 0 0 10px #0d6efd;
+  }
+  50% {
+    text-shadow: 0 0 15px #0d6efd, 0 0 30px #0d6efd;
+  }
+  100% {
+    text-shadow: 0 0 5px #0d6efd, 0 0 10px #0d6efd;
+  }
+}
+.App.light {
+  background-color: white;
+  color: black;
+}
+
+.App.dark {
+  background-color: #000000e2;
+  color: white;
+}
+
+a {
+  color: inherit;
+}
+
