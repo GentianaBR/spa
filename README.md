@@ -33,6 +33,7 @@ src/
 └── home.css           # Global styling
 
 SC
+<<<<<<< HEAD
 [SPA sceenshot](./public/Spa-Gentiana.jpg)
 
 
