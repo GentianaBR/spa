@@ -34,6 +34,6 @@ src/
 
 SC
 <<<<<<< HEAD
-[SPA sceenshot](./public/Spa-Gentiana.jpg)
+[SPA sceenshot](./assets/Spa-Gentiana.jpg)
 
 
